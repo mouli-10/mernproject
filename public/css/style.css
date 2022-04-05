@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.297);
+}
+
+.h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn{
+    margin-left: 13rem;
+}
+
+.register-form{
+    margin: auto auto;
+    width:50%;
+}
+
+.active{
+    margin-left: 50rem;
+}
+
+.navbar-brand{
+    padding-left: 3rem;
+}
+
+
+
+
+
+
+.changes{
+    background-color: rgb(203, 199, 194);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+

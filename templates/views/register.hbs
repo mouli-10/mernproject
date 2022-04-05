@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>header}}
+</head>
+<body>
+     {{>navbar}}
+    <div class="container register ">
+        <div class="row mt-3 mx-auto">
+            <h2 class="h2">Student Registration</h1>
+                <form action="/register" method="POST">
+                    <div class="row register-form">
+                        <div class="col-lg-12 col-md-12 ">
+                                    <div class="form-group mt-3">    
+                                        <input type="text" class="form-control" placeholder="Full Name" value="" name="fullname" >    
+                                    </div>
+
+                                    <div class="form-group mt-3">    
+                                        <input type="email" class="form-control" placeholder="Enter email" value="" name="email">    
+                                    </div>
+
+                                    <div class="form-group mt-3">    
+                                        <input type="number" minlength="10" maxlength="10" class="form-control" placeholder="Enter phone no" value="" name="phone">    
+                                    </div>
+
+                                    <div class="form-group mt-3">    
+                                        <input type="number"  class="form-control" placeholder="Enter your age" value="" name="age">    
+                                    </div>
+
+                                    <div class="form-group mt-3">
+                                        <input type="password" class="form-control" value="" name="password" placeholder="Password">
+                                    </div>
+
+                                    <div class="form-group mt-3">
+                                        <input type="password" class="form-control" value="" name="confirmpassword" placeholder="confirm Password">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="maxl mt-3">
+                                            <label class="radio inline">
+                                                <input type="radio" value="male" name="gender">
+                                                <span>Male</span>
+                                            </label>
+                                            <label class="radio inline">
+                                                <input type="radio" value="female" name="gender">
+                                                <span>Female</span>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-check mt-3">
+                                        <input type="checkbox" class="form-check-input " id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                    </div>
+
+                                    <input type="submit" class="btn btn-primary btn-sm mt-3" value="Register">  
+                        </div>
+                    </div>
+                </form>
+                        
+        </div> 
+        
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
